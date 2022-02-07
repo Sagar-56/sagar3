@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listing Page!!!</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="listings.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="icon">
+                <p>
+                <span id="part1"> Grocery</span>
+                <span>/</span>
+                <span id="part2"> Store </span>
+                </p>
+            </div>
+            <div class="searchbox">
+                <input type="text" name="searchbox" id="drop" class="searchbtn2" placeholder="&ensp;What would you like to buy today?" autocomplete="off">
+                <button type="button" id="btn" title="search" aria-label="search" class="btn3" onclick="dropdown()">&#128722;</button>
+            </div>
+            <div class="addcard">
+
+            </div>
+            <div class="login">
+                 <h3><a href="login.html">Log In</a> / <a href="signup.html"> Sign Up </a></h3>
+            </div>
+
+        </header>
+        <!-- search part -->
+        <div class="boxdiv">
+          <div class="box1">
+              <div class="list">
+                  <h3>Products</h3>
+
+               <label class="grocery"><input type="radio"  name="products">Oil & Ghee </label><br>
+               <label class="grocery"> <input type="radio"  name="products">Dal & Moong</label> <br>
+                <label class="grocery"><input type="radio"  name="products">Rice </label><br>
+                  <label class="grocery"> <input type="radio"  name="products">Sugar </label><br>
+                    <label class="grocery"><input type="radio"  name="products">Protein & Healthy</label> <br>
+                      <label class="grocery"><input type="radio"  name="products">Spices</label> <br>
+                        <label class="grocery"><input type="radio" name="products">Other Groceries</label> <br>
+              </div>
+              <div class="list">
+                  <h3>Price</h3>
+                  <label class="grocery"><input type="checkbox">&#8377;50 & Above</label> <br>
+                    <label class="grocery"> <input type="checkbox" >&#8377;100 & Above </label><br>
+                      <label class="grocery"><input type="checkbox" >&#8377;150 & Above </label><br>
+                        <label class="grocery"><input type="checkbox" >&#8377;200 & Above</label> <br>
+                          <label class="grocery"><input type="checkbox" >&#8377;250 & Above </label><br>
+                            <label class="grocery"> <input type="checkbox" >&#8377;500 & Above</label> <br>
+                              <label class="grocery"> <input type="checkbox" >&#8377;500 & Above</label> <br>
+              </div>
+                <div class="list">
+                  <h3>Discount</h3>
+                  <label class="grocery"> <input type="checkbox" >10% Off & more</label> <br> 
+                    <label class="grocery"> <input type="checkbox">15% Off & more </label><br>
+                      <label class="grocery">  <input type="checkbox" >20% Off & more </label><br>
+                        <label class="grocery"> <input type="checkbox" >25% Off & more </label><br>
+                          <label class="grocery"> <input type="checkbox" >30% Off & more</label> <br>
+                            <label class="grocery"> <input type="checkbox" >35% Off & more </label><br>
+                              <label class="grocery"> <input type="checkbox" >40% Off & more</label> <br>
+                                <label class="grocery"> <input type="checkbox" >45% Off & more</label> <br>
+              </div>
+               <div class="list">
+                  <h3>Quantity</h3>
+                  <label class="grocery"> <input type="checkbox" >50 g.</label> <br>
+                    <label class="grocery"> <input type="checkbox" >100 g. </label><br>
+                      <label class="grocery"> <input type="checkbox">150 g.</label> <br>
+                        <label class="grocery"> <input type="checkbox" >200 g.</label> <br>
+                          <label class="grocery"> <input type="checkbox" >300 g.</label> <br>
+                            <label class="grocery"> <input type="checkbox" >500 g. & more</label> <br>
+              </div>
+              
+              <div class="list">
+                <h3>Customers Ratings</h3>
+                <label class="grocery"> <input type="radio" name="star">&#9733; &#9733; &#9733; &#9734; &#9734; & up </label><br>
+                  <label class="grocery"><input type="radio" name="star">&#9733; &#9733; &#9733; &#9734; &#9734; & up </label><br>
+                  <label class="grocery"> <input type="radio" name="star">&#9733; &#9733; &#9733; &#9734; &#9734; & up</label> <br>
+              </div>
+
+          </div>
+          <div class="content">
+              <div class="box">
+              <div class="imgmain">
+                <img src="https://cflare.shop.bigbazaar.com/cdn-cgi/image/width=450/media/product/49/341/1-wide_zoom.jpg" alt="1-wide-zoom">
+                <h3 class="disc">20% Off</h3>
+              </div>
+              <div>
+              <h4 class="content2">Moong Whole Premium</h4>
+              <h4 style="color:tomato;">&#9733; &#9733; &#9733; &#9733; &#9734; </h4>
+              <span class="price">&#8377;119.00</span>&ensp;
+              <span class="price"><strike>M.R.P &#8377;145.00</strike></span>
+              <div class="btnmain">
+               <button class="btnmain2">Add</button>&ensp;
+              <button class="btnmain2">Buy</button>
+              </div>
+              </div>  
+            </div>
+              <div class="box">
+                  <div class="imgmain">
+                    <img src="https://cflare.shop.bigbazaar.com/cdn-cgi/image/width=450/media/product/00/22/1_5-wide_zoom.jpg" alt="grocery-store-organic-food-supermarket">
+                    <h3 class="disc">25% Off</h3>
+                  </div>
+                  <div>
+                    <h4 class="content2"> Delicious Organic Sugar</h4>
+                    <h4 style="color:tomato;">&#9733; &#9733; &#9733; &#9734; &#9734;</h4>
+                    <span class="price">&#8377;240.00</span>&emsp;
+                    <span class="price"><strike>M.R.P &#8377;243.00</strike></span>
+                    <div class="btnmain">
+                        <button class="btnmain2">Add</button>&ensp;
+                       <button class="btnmain2">Buy</button>
+                       </div>
+                  </div>
+
+              </div>
+              <div class="box min2">
+                  <div class="imgmain">
+                    <img src="https://i.ibb.co/GTg6rYY/1-wide-zoom.jpg" alt="1-wide-zoom">
+                    <h3 class="disc">15% Off</h3>
+                  </div>
+                  <div>
+                    <h4 class="content2"> Gold Winner Sunflower Oil </h4>
+                    <h4 style="color:tomato;">&#9733; &#9733; &#9733; &#9733; &#9734; </h4>
+                    <span class="price">&#8377;699.00</span>&emsp;
+                    <span class="price"><strike>M.R.P &#8377;850.00</strike></span>
+                    <div class="btnmain">
+                        <button class="btnmain2">Add</button>&ensp;
+                       <button class="btnmain2">Buy</button>
+                       </div>
+                  </div>
+
+              </div>
+              <div class="box min" >
+                  <div class="imgmain">
+                    <img src="https://i.ibb.co/d5dkztq/1-5-wide-zoom.jpg" alt="1-5-wide-zoom">
+                    <h4 class="disc">30% Off</h4>
+                  </div>
+                  <div>
+                    <h4 class="content2"> GOLDEN HARVEST Sugar</h4>
+                    <h4 style="color:tomato;">&#9733; &#9733; &#9733; &#9733; &#9734; </h4>
+                    <span class="price">&#8377;90.00</span>&emsp;
+                   <span class="price"><strike>M.R.P &#8377;160.00</strike></span>
+                   <div class="btnmain">
+                    <button class="btnmain2">Add</button>&ensp;
+                   <button class="btnmain2">Buy</button>
+                   </div>
+                  </div>
+
+              </div>
+              <div class="box min">
+                  <div class="imgmain">
+                    <img src="https://i.ibb.co/FYYGzQw/1-wide-zoom.jpg" alt="1-wide-zoom">
+                    <h3 class="disc">35% Off</h4>
+                  </div>
+                  <div>
+                    <h4 class="content2">Heritage Cow Ghee</h2>
+                        <h4 style="color:tomato;">&#9733; &#9733; &#9733; &#9734; &#9734; </h4>
+                        <span class="price">&#8377;360.00</span>&emsp;
+                         <span class="price"><strike>M.R.P &#8377;390.00</strike></span>
+                         <div class="btnmain">
+                            <button class="btnmain2">Add</button>&ensp;
+                           <button class="btnmain2">Buy</button>
+                           </div>
+                  </div>
+
+              </div>
+              <div class="box min">
+                  <div class="imgmain">
+                    <img src="https://i.ibb.co/qCL0CHV/1-wide-zoom.jpg" alt="1-wide-zoom">
+                    <h3 class="disc">45% Off</h3>
+                  </div>
+                  <div>
+                    <h4 class="content2">Mausami Chana</h4>
+                    <h4 style="color:tomato;">&#9733; &#9733; &#9733; &#9733; &#9734; </h4>
+                    <span class="price">&#8377;77.00</span>&emsp;
+                    <span class="price"><strike>M.R.P &#8377;80.00</strike></span>
+                    <div class="btnmain">
+                        <button class="btnmain2">Add</button>&ensp;
+                       <button class="btnmain2">Buy</button>
+                       </div>
+                  </div>
+
+              </div>
+              <div class="box min">
+                  <div class="imgmain">
+                    <img src="https://i.ibb.co/qCv3k2W/1-zoom.jpg" alt="1-zoom">
+                    <h3 class="disc">40% Off</h3>
+                  </div>
+                  <div>
+                    <h4 class="content2">Garam Masala Hervest</h4>
+                    <h4 style="color:tomato;">&#9733; &#9733; &#9733; &#9733; &#9734; </h4>
+                    <span class="price">&#8377;160.00</span>&emsp;
+                    <span class="price"><strike>M.R.P &#8377;360.00</strike></span>
+                    <div class="btnmain">
+                        <button class="btnmain2">Add</button>&ensp;
+                       <button class="btnmain2">Buy</button>
+                       </div>
+                  </div>
+              </div>
+              <div class="box min">
+                <div class="imgmain">
+                 <img src="https://i.ibb.co/hxNwQft/1-1-wide-zoom.jpg" alt="1-1-wide-zoom">
+                 <h3 class="disc">28% Off</h3>
+                </div>
+                <div>
+                    <h4 class="content2">Freedom Gold Sunflower</h4>
+                    <h4 style="color:tomato;">&#9733; &#9733; &#9733; &#9734; &#9734; </h4>
+                    <span class="price">&#8377;727.00</span>&emsp;
+                    <span class="price"><strike>M.R.P &#8377;825.00</strike></span>
+                    <div class="btnmain">
+                        <button class="btnmain2">Add</button>&ensp;
+                       <button class="btnmain2">Buy</button>
+                       </div>
+                </div>
+              </div>
+              <div class="box min delete">
+                <div class="imgmain">
+                    <img src="https://i.ibb.co/dLwg689/1-2-wide-zoom.jpg" alt="1-2-wide-zoom">
+                    <h3 class="disc">50% Off</h3>
+                </div>
+                <div class="content1">
+                    <h4 class="content2">Cadbury Bourn Vita Healthy</h4>
+                    <h4 style="color:tomato;">&#9733; &#9733; &#9733; &#9733; &#9734; </h4>
+                    <span class="price">&#8377;560.00</span>&emsp;
+                    <span class="price"><strike>M.R.P &#8377;660.00</strike></span>
+                    <div class="btnmain">
+                        <button class="btnmain2">Add</button>&ensp;
+                       <button class="btnmain2">Buy</button>
+                       </div>
+
+                </div>
+              </div>
+
+          </div>
+
+        </div>
+        <!-- footer section -->
+        <footer id="foot">
+            <h4 style="text-align: center; color: gray; font-family: Arial, 
+            Helvetica, sans-serif; ">&copy; 2021 Grocery/Store</h4>
+        </footer>
+        
+    </div>
+</body>
+</html>
